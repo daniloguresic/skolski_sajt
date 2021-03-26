@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Langar', regular;
+}
+
+.main_container {
+  position: relative;
+}
+
+.navbar {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  background-color: #3b0707;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.logo {
+  width: 300px;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo_tekst_i_navbar_items {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo_tekst {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_tekst a {
+  font-size: 80px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.navbar_items {
+  height: 50%;
+  display: flex;
+}
+
+.navbar_items ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 50px;
+  align-items: center;
+}
+
+.navbar_items a {
+  font-size: 50px;
+  color: white;
+  background-color: red;
+  padding: 5px 30px;
+  border-radius: 5px;
+  width: 280px;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner_image {
+  background: url("banner_image.png") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_content {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  font-size: 80px;
+  -webkit-text-stroke: 4px white;
+}
+
+.about {
+	padding: 2% 5%;
+  background-color: white;
+}
+
+h1.title {
+	color: red;
+	font-family: 'Langar', regular;
+	text-transform: uppercase;
+	font-size: 100px;
+	line-height: 100px
+	word-spacing: 25px;
+	letter-spacing: 5px;
+	text-align: right;
+}
+
+.grb {
+	float: left;
+	width: 400px;
+	margin-right: 30px;
+}
+
+.about p {
+	font-size: 38px;
+	color: red;
+	margin-bottom: 20px;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+
+.btn a {
+	display: block;
+	width: 300px;
+	height: 60px;
+	border: 3px solid red;
+	line-height: 50px;
+	font-size: 50px;
+	margin: 0 auto;
+	color: red;
+	text-align: center;
+}
+
+.fans {
+  padding: 2% 5%;
+  background-color: #ff7f7f;
+}
+
+.navijaci {
+  float: left;
+  width: 400px;
+  margin-right: 30px;
+}
+
+.fans p {
+  font-size: 38px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.contactus {
+  padding: 2% 5%;
+  background-color: white;
+}
+
+.form_input, .form_input input, .form_input textarea {
+  margin-bottom: 15px;
+  line-height: 50px;
+  font-size: 50px;
+  color: red;
+}
+
+.form_input input, .form_input textarea {
+  border: 3px solid red;
+  padding: 5px 20px;
+  width: 1000px;
+}
+
+.form_input textarea {
+  width: 1500px;
+  height: 400px;
+}
+
+.form_input span {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  padding-top: 10px;
+}
+
+.contactus .btn {
+  display: block;
+  text-align: right;
+}
+
+.contactus .btn a {
+  text-transform: uppercase;
+  color: white;
+  background-color: red;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.ourteam {
+  padding: 2% 5%;
+  background-color: #ff7f7f;
+}
+
+.nav_member {
+  font-size: 200px;
+  line-height: 300px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 400px;
+  height: 300px;
+  width: 150px;
+  justify-content: center;
+  vertical-align: middle;
+  margin-top: 100px;
+  border: 10px solid white;
+}
+
+.ourteam .form_wrapper {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.team_ime, .team_pozicija {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
+
+.ourteam .member img, .nav_member {
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.ourteam .member:hover img, .nav_member:hover {
+  transform: scale(1.1);
+}
+
+.nav_member:hover {
+  color: red;
+  background-color: white;
+  border: 10px solid red;
+}
+
+.footer {
+  font-size: 30px;
+  text-align: center;
+  background-color: #3b0707;
+  color: white;
+  padding-top: 20px;
+}
+
+.footer img {
+  width: 100px;
+  height: 100px;
+}
